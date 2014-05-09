@@ -1,0 +1,58 @@
+@media (min-width: 320px) {
+	#nav {
+		position: relative;
+	}
+	#nav-links {
+		float: none;
+		margin: auto;
+	}
+	a{
+		color: blue;
+	}
+	#article-titles {
+		text-align: center;
+		position: relative;
+		width: 80%;
+		top: 2em;
+		margin: auto;
+
+	}
+	#main {
+			float: none;
+			width: 80%;
+			text-align: center;
+			padding-top: 5em;
+			margin-left: auto;
+			margin-right: auto;
+		}
+}
+
+@media (min-width: 768px) {
+	#nav {
+		background-color: #fff;
+	}
+	#nav-links {
+		float: right;
+		margin: auto;
+	}
+	a {
+		color: red;
+	}
+
+	#article-titles {
+		text-align: center;
+		position: relative;
+		width: 80%;
+		top: 12em;
+		margin: auto;
+
+	}
+	#main {
+			float: none;
+			width: 80%;
+			text-align: center;
+			padding-top: 10em;
+			margin-left: auto;
+			margin-right: auto;
+		}
+}
