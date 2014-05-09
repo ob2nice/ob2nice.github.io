@@ -1,58 +1,111 @@
 @media (min-width: 320px) {
-	#nav {
-		position: relative;
-	}
-	#nav-links {
-		float: none;
-		margin: auto;
-	}
-	a{
-		color: blue;
-	}
-	#article-titles {
-		text-align: center;
-		position: relative;
-		width: 80%;
-		top: 2em;
-		margin: auto;
-
-	}
-	#main {
-			float: none;
-			width: 80%;
-			text-align: center;
-			padding-top: 5em;
-			margin-left: auto;
-			margin-right: auto;
-		}
+	body {
+	margin-top: 0;
 }
+
+#blog-image {
+	margin-left: 2em;
+	float: left;
+}
+#nav-links {
+	position: relative;
+	width: 100%;
+	font-family: arial, verdana, sans-serif;
+	font-size: 13px;
+	float: right;
+	margin: auto;
+	/*margin-right: 1.25em;
+	margin-top: 4.5em;*/
+
+
+}
+	li.nav {display: inline;
+		margin-right: 0.63em;
+	}
+a { 
+	text-decoration: none;
+	color: blue;
+}
+#nav {
+	border-bottom: 3px solid #000;
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	float:left;
+}
+#article-titles {
+	
+	font-size: 13px;;
+	float: left;
+	text-align: center;
+	
+	width: 100%;
+	margin-top: 14em;
+	margin-left: 2em;
+
+		}
+		li {
+			display: block;
+			margin-bottom: 0.63em;
+			margin-left: 0;
+			font: bolder;
+			padding-right: 2.25em;
+		}
+		
+#main {
+			display: block;
+			width: 100%;
+			float: left;
+			text-align: center;
+			padding-top: 2em;
+			margin: auto;
+		}
+
+h1 {
+	font-family: arial, verdana, sans-serif;
+	font-size: 12px;
+	font: bolder;
+	bottom: 0;
+	margin: 0;
+}
+h2 {
+	font-family: Tahoma, geneva, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	text-transform: uppercase;
+}
+p {font-family: Arial, verdana, sans-serif;
+	font-size: 11px;
+	margin-bottom: 1.56em;
+}
+	
 
 @media (min-width: 768px) {
 	#nav {
 		background-color: #fff;
+		float: left;
+		margin: none;
 	}
 	#nav-links {
 		float: right;
-		margin: auto;
+		
 	}
 	a {
 		color: red;
 	}
 
 	#article-titles {
+		margin-top: 10em;
 		text-align: center;
-		position: relative;
-		width: 80%;
-		top: 12em;
-		margin: auto;
+		width: 33%;
+		margin: 0;
 
 	}
 	#main {
 			float: none;
-			width: 80%;
+			width: 66%;
 			text-align: center;
 			padding-top: 10em;
-			margin-left: auto;
-			margin-right: auto;
+			margin: 0;
 		}
 }
